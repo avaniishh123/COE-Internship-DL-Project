@@ -149,10 +149,6 @@ To validate the performance of our **Generalizable Polyp Segmentation Model**, w
 
 ---
 
-## Perfect 👍 You should dedicate a section in the README for **Deployment** and **Demo Video** so users can directly try your model or watch how it works. Here’s how to structure it:
-
----
-
 ## 🌐 Deployment & Demo
 
 ### 🔹 Live Deployment
