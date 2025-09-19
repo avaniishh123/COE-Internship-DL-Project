@@ -119,12 +119,6 @@ Ground Truth Mask (Source): Actual segmentation mask used for supervised trainin
 
 <img width="325" height="182" alt="image" src="https://github.com/user-attachments/assets/7c9c3cec-9f86-47d4-81a7-ac0ae506975a" />
 
-### Great question 👍 For the **screenshots** you pasted (bounding boxes + masks results), you should create a **Results & Visualization** section in your README. This will highlight **qualitative performance** of your model.
-
-Here’s how you can write it 👇
-
----
-
 ### 📸 Results & Visualization
 
 To validate the performance of our **Generalizable Polyp Segmentation Model**, we tested on **unseen endoscopic images** across different domains.
