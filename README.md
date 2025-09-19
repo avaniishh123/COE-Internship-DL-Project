@@ -1,4 +1,4 @@
-<img width="325" height="182" alt="image" src="https://github.com/user-attachments/assets/8e68227d-22e1-492e-bd66-0b48f944d00d" /># Generalizable Polyp Detection and Segmentation Across Endoscopy Devices
+# Generalizable Polyp Detection and Segmentation Across Endoscopy Devices
 
 ## 📌 Problem
 
