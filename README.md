@@ -98,6 +98,7 @@ Target Domain (Unlabeled): Supplies unlabeled images from a different device/dom
 
 Target Sample (Optional): Can be used for domain confusion learning or visualization.
 
+
 🔹 Model Core (Center)
 
 Encoder: Extracts feature maps from both source and target domain images.
@@ -109,6 +110,7 @@ Gradient Reversal Layer (GRL): Ensures that the encoder learns domain-invariant 
 Domain Classifier: Learns to distinguish source vs. target domain features. Works adversarially with GRL.
 
 Segmentation Head: Decodes features to produce a pixel-wise segmentation mask.
+
 
 🔹 Outputs
 
