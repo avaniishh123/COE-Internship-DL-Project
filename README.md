@@ -149,6 +149,33 @@ To validate the performance of our **Generalizable Polyp Segmentation Model**, w
 
 ---
 
+## Perfect 👍 You should dedicate a section in the README for **Deployment** and **Demo Video** so users can directly try your model or watch how it works. Here’s how to structure it:
+
+---
+
+## 🌐 Deployment & Demo
+
+### 🔹 Live Deployment
+
+👉 Try the model here: **[Live App Link](https://cowkur-coe-dl-project.hf.space/)**
+
+The app allows you to:
+
+* Upload an endoscopic image
+* Get **segmentation masks + bounding boxes**
+* See real-time polyp detection verdicts
+
+### 🔹 Demo Video
+
+🎥 Watch the demo here: **[Demo Video Link](https://drive.google.com/file/d/11YvPun0sMPqP4ehYS6HdhyMGqKpdKFG-/view?usp=sharing)**
+
+The video showcases:
+
+* Uploading test images from different devices
+* Segmentation + bounding box predictions
+* Real-time detection verdicts
+
+---
 
 ## 🔮 Future Work
 
