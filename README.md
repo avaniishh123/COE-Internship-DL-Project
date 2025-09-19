@@ -116,7 +116,7 @@ Predicted Mask (Target): Model’s segmentation prediction for polyp regions on 
 
 Ground Truth Mask (Source): Actual segmentation mask used for supervised training (only available for source domain).
 
-                                         <img width="649" height="364" alt="image" src="https://github.com/user-attachments/assets/3dd5907e-82fe-4c24-b885-8da2eeed4102" />
+![Uploading image.png…]()
 
 
 ### 📸 Results & Visualization
