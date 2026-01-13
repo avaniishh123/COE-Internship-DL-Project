@@ -155,7 +155,7 @@ To validate the performance of our **Generalizable Polyp Segmentation Model**, w
 
 ### 🔹 Live Deployment
 
-👉 Try the model here: **[Live App Link](https://cowkur-coe-dl-project.hf.space/)**
+👉 Try the model here: **[Live App Link](https://huggingface.co/spaces/Cowkur/polyp-segmentation-dann)**
 
 The app allows you to:
 
