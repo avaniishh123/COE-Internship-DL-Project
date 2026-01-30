@@ -54,15 +54,6 @@ Where:
 
 ## 🏗️ Architecture Explanation (Domain-Adaptive Polyp Segmentation)
 
-Below is a **clean, professional, GitHub-README–ready explanation** written **strictly with respect to the architecture diagram** you shared.
-This is the kind of explanation reviewers, interviewers, and recruiters expect.
-
-You can paste this **directly under the Architecture section** in your README.
-
----
-
-## 🏗️ Architecture Explanation (Domain-Adaptive Polyp Segmentation)
-
 The proposed architecture follows a **Domain-Adversarial Neural Network (DANN)** framework built on top of **DeepLabV3**, enabling **robust polyp segmentation across different endoscopy devices**.
 
 The model operates in **two phases**: **Training** and **Inference**, as illustrated in the diagram.
