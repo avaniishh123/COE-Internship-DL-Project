@@ -67,7 +67,8 @@ The proposed architecture follows a **Domain-Adversarial Neural Network (DANN)**
 
 The model operates in **two phases**: **Training** and **Inference**, as illustrated in the diagram.
 
-<img width="1024" height="640" alt="image" src="https://github.com/user-attachments/assets/7126ee13-2fb0-415e-b5b4-d6f1a36d7309" />
+<img width="3136" height="2004" alt="domain_adaptive_polyp_segmentation_clear (1)" src="https://github.com/user-attachments/assets/ff2724f2-5e11-4204-996a-b22fd9315dcf" />
+
 
 
 
@@ -257,6 +258,11 @@ Compared to the source domain (CVC):
 ---
 
 ## 🖼️ Visualization & Explainability
+
+<img width="872" height="355" alt="image" src="https://github.com/user-attachments/assets/e39313c3-b7da-45b3-9663-2f517fe02e32" />
+<img width="854" height="352" alt="image" src="https://github.com/user-attachments/assets/5efa886d-3e29-41bb-afbc-38427c7032c9" />
+<img width="865" height="336" alt="image" src="https://github.com/user-attachments/assets/e3946ab5-1163-4360-8c05-300d4ab1e60b" />
+<img width="863" height="350" alt="image" src="https://github.com/user-attachments/assets/23457be9-5854-472f-81e9-8c883834b753" />
 
 - 🔥 Probability heatmaps over input images  
 - 🟩 Bounding boxes for each detected polyp  
