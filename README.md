@@ -260,8 +260,11 @@ Compared to the source domain (CVC):
 ## 🖼️ Visualization & Explainability
 
 <img width="872" height="355" alt="image" src="https://github.com/user-attachments/assets/e39313c3-b7da-45b3-9663-2f517fe02e32" />
+
 <img width="854" height="352" alt="image" src="https://github.com/user-attachments/assets/5efa886d-3e29-41bb-afbc-38427c7032c9" />
+
 <img width="865" height="336" alt="image" src="https://github.com/user-attachments/assets/e3946ab5-1163-4360-8c05-300d4ab1e60b" />
+
 <img width="863" height="350" alt="image" src="https://github.com/user-attachments/assets/23457be9-5854-472f-81e9-8c883834b753" />
 
 - 🔥 Probability heatmaps over input images  
