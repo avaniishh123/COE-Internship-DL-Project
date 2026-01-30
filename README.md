@@ -287,7 +287,7 @@ This significantly improves:
 ## 🚀 Live Demo
 
 - 🔗 **Hugging Face App:** https://huggingface.co/spaces/Cowkur/polyp-segmentation-dann  
-- 🎥 **Demo Video:** https://drive.google.com/file/d/11YvPun0sMPqP4ehYS6HdhyMGqKpdKFG-/view  
+- 🎥 **Demo Video:** https://drive.google.com/file/d/1hr4cqLCi6Oig7C80chLHaA4wcUUD3Uqi/view?usp=sharing 
 
 Upload any endoscopic image and get:
 - Segmentation mask
