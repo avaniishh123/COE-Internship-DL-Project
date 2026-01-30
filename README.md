@@ -298,13 +298,6 @@ Upload any endoscopic image and get:
 
 ## 👨‍💻 Contributors
 
-Got it 👍
-Here’s the **cleanest, minimal, GitHub-perfect version** — **one line per person**, no fluff:
-
----
-
-## 👨‍💻 Contributors
-
 * **Avanish Cowkur** – Dataset analysis, evaluation metrics, validation, visualization, deployement
 * **Abhishek Dhaladhuli** – Model architecture, domain adaptation, training pipeline
 * **Srinivas Pagadala** – Problem formulation, architectural support, research collaboration
