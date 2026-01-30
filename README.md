@@ -41,7 +41,8 @@ This pushes the encoder to learn **device-invariant features**.
 
 ### Objective Function
 
-<img width="217" height="29" alt="image" src="https://github.com/user-attachments/assets/49a34df8-dc0a-4bfc-8143-15df64e122b0" />
+<img width="229" height="35" alt="image" src="https://github.com/user-attachments/assets/507f9520-6703-46ca-ab4c-9834af3e1c48" />
+
 
 
 Where:
@@ -66,7 +67,7 @@ The proposed architecture follows a **Domain-Adversarial Neural Network (DANN)**
 
 The model operates in **two phases**: **Training** and **Inference**, as illustrated in the diagram.
 
-                                                              <img width="784" height="501" alt="Screenshot 2026-01-30 173241" src="https://github.com/user-attachments/assets/3d6099cd-6340-4005-8fd6-34ba9d3509b8" />
+<img width="784" height="501" alt="Screenshot 2026-01-30 173241" src="https://github.com/user-attachments/assets/3d6099cd-6340-4005-8fd6-34ba9d3509b8" />
 
 
 ---
