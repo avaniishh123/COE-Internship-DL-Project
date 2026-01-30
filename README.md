@@ -66,6 +66,9 @@ The proposed architecture follows a **Domain-Adversarial Neural Network (DANN)**
 
 The model operates in **two phases**: **Training** and **Inference**, as illustrated in the diagram.
 
+                                                              <img width="784" height="501" alt="Screenshot 2026-01-30 173241" src="https://github.com/user-attachments/assets/3d6099cd-6340-4005-8fd6-34ba9d3509b8" />
+
+
 ---
 
 ## 🔹 Training Phase
@@ -151,15 +154,8 @@ The **key component enabling domain adaptation**.
 
 ### 6️⃣ Total Training Loss
 
-[
-\mathcal{L}*{total} = \mathcal{L}*{segmentation} + \lambda \cdot \mathcal{L}_{domain}
-]
+<img width="395" height="195" alt="image" src="https://github.com/user-attachments/assets/8bd1109b-95ed-4257-a6c2-b2a055537224" />
 
-Where:
-
-* ( \mathcal{L}_{segmentation} ): applied only to source domain
-* ( \mathcal{L}_{domain} ): applied to both source and target
-* ( \lambda ): balances segmentation and domain adaptation
 
 This joint optimization ensures:
 
