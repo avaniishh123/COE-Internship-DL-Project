@@ -67,7 +67,8 @@ The proposed architecture follows a **Domain-Adversarial Neural Network (DANN)**
 
 The model operates in **two phases**: **Training** and **Inference**, as illustrated in the diagram.
 
-<img width="784" height="501" alt="Screenshot 2026-01-30 173241" src="https://github.com/user-attachments/assets/3d6099cd-6340-4005-8fd6-34ba9d3509b8" />
+<img width="1024" height="640" alt="image" src="https://github.com/user-attachments/assets/7126ee13-2fb0-415e-b5b4-d6f1a36d7309" />
+
 
 
 ---
