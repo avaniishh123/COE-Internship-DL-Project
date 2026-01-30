@@ -41,9 +41,8 @@ This pushes the encoder to learn **device-invariant features**.
 
 ### Objective Function
 
-\[
-\mathcal{L}_{total} = \mathcal{L}_{segmentation} + \lambda \mathcal{L}_{domain}
-\]
+<img width="217" height="29" alt="image" src="https://github.com/user-attachments/assets/49a34df8-dc0a-4bfc-8143-15df64e122b0" />
+
 
 Where:
 - **Segmentation Loss** = BCEWithLogits + Dice  
