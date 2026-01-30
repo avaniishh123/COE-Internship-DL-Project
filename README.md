@@ -296,9 +296,15 @@ Upload any endoscopic image and get:
 
 ---
 
-## 🛠️ Installation
+## 👨‍💻 Contributors
 
-```bash
-git clone https://github.com/your-username/generalizable-polyp-segmentation.git
-cd generalizable-polyp-segmentation
-pip install -r requirements.txt
+Got it 👍
+Here’s the **cleanest, minimal, GitHub-perfect version** — **one line per person**, no fluff:
+
+---
+
+## 👨‍💻 Contributors
+
+* **Avanish Cowkur** – Dataset analysis, evaluation metrics, validation, visualization, deployement
+* **Abhishek Dhaladhuli** – Model architecture, domain adaptation, training pipeline
+* **Srinivas Pagadala** – Problem formulation, architectural support, research collaboration
