@@ -51,18 +51,144 @@ Where:
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Architecture Explanation (Domain-Adaptive Polyp Segmentation)
 
-### Training Phase
-- **Source (Labeled)** → segmentation + domain confusion  
-- **Target (Unlabeled)** → domain confusion only  
+Below is a **clean, professional, GitHub-README–ready explanation** written **strictly with respect to the architecture diagram** you shared.
+This is the kind of explanation reviewers, interviewers, and recruiters expect.
 
-### Inference Phase
-- **Any endoscopy device** → segmentation mask  
-
-![Domain-Adaptive Polyp Segmentation Model](assets/domain_adaptive_architecture.png)
+You can paste this **directly under the Architecture section** in your README.
 
 ---
+
+## 🏗️ Architecture Explanation (Domain-Adaptive Polyp Segmentation)
+
+The proposed architecture follows a **Domain-Adversarial Neural Network (DANN)** framework built on top of **DeepLabV3**, enabling **robust polyp segmentation across different endoscopy devices**.
+
+The model operates in **two phases**: **Training** and **Inference**, as illustrated in the diagram.
+
+---
+
+## 🔹 Training Phase
+
+During training, the model jointly learns **segmentation accuracy** and **domain invariance** using both labeled and unlabeled data.
+
+---
+
+### 1️⃣ Source Domain (Labeled)
+
+**Input:**
+
+* Labeled polyp images
+* Corresponding ground-truth segmentation masks
+
+**Process:**
+
+* Images are passed through a **shared encoder (DeepLabV3 backbone)**.
+* The extracted features are fed into a **Segmentation Head**.
+* The predicted mask is compared with the ground-truth mask.
+
+**Loss:**
+
+* **Segmentation Loss** = Binary Cross-Entropy + Dice Loss
+* Ensures accurate pixel-level polyp segmentation.
+
+---
+
+### 2️⃣ Target Domain (Unlabeled)
+
+**Input:**
+
+* Unlabeled polyp images from a different endoscopy device (e.g., ETIS-Larib)
+
+**Process:**
+
+* Images pass through the **same shared encoder**.
+* No segmentation loss is applied (no labels available).
+* Features are instead sent to a **Domain Classifier**.
+
+---
+
+### 3️⃣ Shared Encoder (DeepLabV3)
+
+* Acts as a **common feature extractor** for both source and target domains.
+* Learns high-level semantic features (polyp shape, texture, boundaries).
+* Initially captures domain-specific information, which must be removed.
+
+---
+
+### 4️⃣ Gradient Reversal Layer (GRL)
+
+The **key component enabling domain adaptation**.
+
+* During forward pass: acts as an identity layer.
+* During backpropagation: **reverses gradients** coming from the domain classifier.
+
+**Effect:**
+
+* The encoder is penalized if domain-specific features are learned.
+* Forces the encoder to learn **domain-invariant representations**.
+
+---
+
+### 5️⃣ Domain Classifier
+
+* Receives features from the encoder via the GRL.
+* Predicts whether features come from:
+
+  * **Source domain**
+  * **Target domain**
+
+**Loss:**
+
+* **Domain Classification Loss (Cross-Entropy)**
+
+**Adversarial Objective:**
+
+* Domain classifier tries to distinguish domains.
+* Encoder tries to **confuse** the classifier.
+
+---
+
+### 6️⃣ Total Training Loss
+
+[
+\mathcal{L}*{total} = \mathcal{L}*{segmentation} + \lambda \cdot \mathcal{L}_{domain}
+]
+
+Where:
+
+* ( \mathcal{L}_{segmentation} ): applied only to source domain
+* ( \mathcal{L}_{domain} ): applied to both source and target
+* ( \lambda ): balances segmentation and domain adaptation
+
+This joint optimization ensures:
+
+* High segmentation accuracy
+* Strong cross-device generalization
+
+---
+
+## 🔹 Inference Phase
+
+During inference, **domain adaptation components are removed**.
+
+**Input:**
+
+* Any endoscopy image (from any device)
+
+**Process:**
+
+* Image → Shared Encoder → Segmentation Head
+
+**Output:**
+
+* Predicted polyp segmentation mask
+
+✔ No domain classifier
+✔ No gradient reversal
+✔ Fully device-agnostic inference
+
+
 
 ## 📦 Datasets
 
